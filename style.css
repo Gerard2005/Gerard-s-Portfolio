@@ -1,0 +1,1094 @@
+section{
+  background-color: #ffffff;
+}
+
+/*Main Heading*/
+
+@font-face {
+  font-family:Mainheader;
+  src: url(fonts/ChopinScript.ttf);
+}
+
+
+* {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+h1{
+  font-family:Mainheader;}
+
+  /*Heading one*/
+h1{
+  font-size: 76px;
+  color: #000000;
+  text-align: center;
+  font-family:Mainheader ;
+  margin-top:10px;
+
+}
+
+
+/*Size of the page*/
+
+main {
+max-width: 100%
+
+}
+
+/*Header color*/
+
+header
+{ background:#000000;
+  text-align: center;
+}
+
+/*Nav bar color*/
+
+.navbar{
+  background-color: #808080;
+}
+
+
+.NavButton {
+  font-size: 26px;
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.NavButton:hover {
+color:rgb(0, 0, 0);
+}
+
+
+/* START Menu Button on navigation bar */
+.dropbtn {
+  background-color: #00000000;
+  color: rgb(255, 255, 255);
+  padding: 16px;
+  font-size: 30px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+
+  display: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #808080;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 100%;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #000000;
+  color:rgb(0, 195, 255)
+}
+
+/* END Menu Button on navigation bar */
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Paragraphs button idnex first page*/
+p {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+/* For Email details inside contact footer */
+.p8{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+}
+
+/*images*/
+img {
+max-width: 100%;
+}
+
+/* logo */
+.logo:hover {
+  filter: brightness(1.75);
+}
+
+/* Contact information*/
+footer {
+  background-color: black;
+  padding: 30px;
+  padding-top: 70px;
+  max-width: 100%;
+}
+
+/*   Footer Content */
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  justify-content: space-between;
+  margin-top: -90px;
+width: 100%;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+/* terms and conditions main colour footer*/
+.p6{
+  color: rgb(255, 255, 255);
+}
+
+/*terms and Conditioions colour footer*/
+.p6:hover{
+  color: #00aeff;
+}
+
+/*footer icons background colour*/
+.footericons img, .socials img, .partner-logo {
+  background-color: #000000;
+  width: 50px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  max-width: 100%;
+}
+
+.socials img:hover {
+  filter: brightness(1.75);
+}
+
+/*Nav Bar Font Text Colour*/
+a{
+  color: rgb(255, 255, 255);
+}
+
+/*BrandGuidlines Document in Footer*/
+.footericons a:hover img, .footerlink a:hover, .legal-rights a:hover {
+  transform: scale(1.1);
+  color: #00eeff;
+}
+
+/* Policy and Legal Rights */
+.legal-rights p, .legal-rights a {
+  font-size: 20px;
+  margin: 0px;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .grid-container {
+      grid-template-columns: 1fr;
+  }
+}
+
+
+    /*main text / body text*/
+    .p2 {
+      color: rgb(0, 0, 0);
+      padding-top: 35px;
+      width: 1200px;
+      margin: auto;
+      text-align: center;
+      max-width: 100%;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+
+/* mobile version*/
+@media only screen and (max-width: 1300px) {
+  .heading {
+    font-size: 80px;
+  }
+
+  .text{
+
+      font-size: 30px;
+      padding:90px;
+    margin-top: -70px;
+    }
+
+}
+
+
+@media only screen and (max-width: 720px) {
+  .heading {
+    font-size: 40px;
+  }
+
+  .text{
+      font-size: 20px;
+      padding:20px
+  
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
+  .heading {
+    font-size: 30px;
+    margin-top: -40px;
+
+  }
+
+  .text{
+      font-size: 16px;
+      padding:20px;
+      padding-top:10px;
+      margin-top: -100px;
+  
+    }
+
+    img.image-break {
+      display: none;
+      transform: rotate(360deg);
+    }
+
+
+}
+
+
+
+button.btn2 {
+  background: #059f;
+  padding: 10px;
+}
+
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+@media only screen and (max-width: 600px) {
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.destopNav {
+  display: none;
+}
+
+
+}
+
+/* footer adjustment to make it go across the screen*/
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+ 
+ /*button hover effect main page*/
+ .btn2:hover{
+   background-color: #00eeff;
+cursor: pointer;
+ }
+
+ /* Footer Heading*/
+.h5{
+  font-size: 30px;
+  font-family: text;
+  color: rgb(253, 253, 253);
+}
+
+/*Cards*/
+
+.flexContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flexItem1 {
+  width: 500px;
+  background: #059f;
+  text-align: center;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  border: #1e1e1e dashed 7px;
+  border-radius: 20px; ;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.flexItem1:hover{
+background: #00eeff;
+}
+
+/*Header of the table*/
+
+.flexItem2 {
+  width: 200px;
+  background:rgb(252, 252, 252);
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+.flexItem3 {
+  width: 200px;
+  background:rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+
+}
+
+
+
+
+.p10 {
+  color: rgb(0, 0, 0);
+  padding-right: 100px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-right: 100px;
+}
+
+.My-self-Image img {
+  margin-top: 20px ;
+}
+
+.flexContainer-5 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 300px;
+}
+
+
+
+
+.p11 {
+  color: rgb(0, 0, 0);
+  padding-right: 100px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+}
+
+.flexContainer-6 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 100px;
+
+}
+
+.hair-salon-logo img {
+  margin-top: 20px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.flexContainer-7 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  gap: 20px;
+
+}
+
+.hair-salon-nav img {
+  margin-top: 20px;
+}
+
+.p12 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+}
+
+
+
+
+.flexContainer-8 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 100px;
+  gap: 20px;
+  float: left;
+}
+
+.hair-salon-prices img {
+  margin-top: -110px;
+}
+
+.p13 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  margin-top: 100px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+}
+
+
+
+
+
+
+.flexContainer-9 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: -100px;
+  gap: 20px;
+  float: left;
+}
+
+.hair-salon-waves img {
+  margin-top: 10px;
+}
+
+.p14 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+}
+
+
+
+
+
+.flexContainer-10 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.hair-salon-moving-images img {
+  margin-top: -135px;
+}
+
+.p15 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+.flexContainer-11 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.about-the-hairsalon img {
+  margin-top: -150px;
+}
+
+.p16 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: -130px;
+}
+
+
+
+
+
+
+
+.flexContainer-12 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.hair-salon-information img {
+  margin-top: -100px;
+}
+
+.p17 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: -5px;
+}
+
+
+
+
+
+
+.flexContainer-13 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.Hair-Salon-cards-images-text img {
+  margin-top: -50px;
+}
+
+.p18 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: -50px;
+}
+
+
+
+
+.flexContainer-14 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.Hair-Salon-Contact-Fill img {
+  margin-top: -20px;
+}
+
+.p19 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: 60px;
+}
+
+
+
+
+
+
+.flexContainer-15 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.Hair-Salon-Contact-Fill img {
+  margin-top: -100px;
+}
+
+.p20 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: -25px;
+}
+
+
+
+
+
+
+
+
+
+.flexContainer-16 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.Selby-College-Location img {
+  margin-top: -150px;
+}
+
+.p21 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: -25px;
+}
+
+
+
+
+
+
+
+
+
+.flexContainer-17 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.Hair-Salon-Waves-Bottom img {
+  margin-top: -200px;
+}
+
+.p22 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: -75px;
+}
+
+
+
+.flexContainer-18 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.Hair-Salon-Footer img {
+  margin-top: -180px;
+}
+
+.p23 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: -75px;
+}
+
+
+
+
+
+.flexContainer-19 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.Hair-Salon-Footer img {
+  margin-top: -180px;
+}
+
+.p24 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: -50px;
+}
+
+
+
+
+
+
+
+
+.flexContainer-20 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.Hair-Salon-Favicon img {
+  margin-top: -150px;
+}
+
+.p25 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: -50px;
+}
+
+
+
+
+
+
+.flexContainer-21 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.Hair-Salon-Figma img {
+  margin-top: -130px;
+}
+
+.p26 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: -50px;
+}
+
+
+
+.flexContainer-22 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.Hair-Salon-layout img {
+  margin-top: -150px;
+}
+
+.p27 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: -50px;
+}
+
+
+
+.p28 {
+  color: rgb(0, 0, 0);
+  padding-top: -100px;
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  max-width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.links {
+  color: #000000;
+  font-size: 20px;
+ text-align: center;
+ padding-top: 20px;
+}
+
+.links:hover{
+  color: orange;
+}
+
+
+
+
+
+
+
+
+
+/*Posters*/
+
+.flexContainer-22 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.poster-graphic img {
+  margin-top: -50px;
+}
+
+.p29 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: 70px;
+}
+
+
+
+
+
+
+.p30 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: 60px;
+}
+
+.p31 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: 80px;
+}
+
+
+
+
+
+/*Morgan Sindall Live client Project*/
+
+.flexContainer-24 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.Morgan-NavBar img {
+  margin-top: -70px;
+}
+
+.p32 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: 8px;
+}
+
+
+
+
+
+
+
+.flexContainer-25 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.Morgan-plumbing img {
+  margin-top: -140px;
+}
+
+.p33 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: -30px;
+}
+
+
+
+
+.flexContainer-26 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  float: left;
+}
+
+.Van-logo img {
+  margin-top: -270px;
+}
+
+.p34 {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  margin-top: -70px;
+}
+
