@@ -1,0 +1,415 @@
+
+@font-face {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  src: url();
+}
+
+/*Heading*/
+
+@font-face{ font-family:LinkFont;src:url(fonts/beuton.otf)}
+
+/*Nav Bar Font*/
+
+@font-face{font-family:nav;src:url(fonts/MADEMellowPERSONALUSE-Black.otf)}
+
+/*Header 2*/
+
+@font-face{font-family: header2;src:url(fonts/Te\ Quirtez.otf)}
+
+/*Background of my page*/
+
+body {
+background:darkolivegreen;
+background-image: url("Images/background\ imagine.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/*Size of the page*/
+
+main {
+width: 1100px;
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+margin-bottom:0px;
+max-width: 100%
+
+}
+
+/*Header color*/
+
+header 
+{ background:#000000;
+  text-align: center;
+}
+
+/*Nav bar color*/
+
+.navbar{
+  background-color: #00ff9d;
+}
+
+/*Header gifs*/
+
+.header_gif {
+  padding: 50px;
+}
+
+/*Nav text color change first layout*/
+
+.NavItems { 
+  color: rgb(255, 255, 255);
+  font-size:36px;
+  color: #044949;
+  padding-right:80px;
+  font-family: Nav ;
+  transition: 0.2;
+  
+}
+
+/*Hover for the Nav Bar*/
+
+.NavItems:hover { 
+  color: #002424 ;
+  transition: 0.4;
+  font-size: 45px;
+
+}
+
+/*Main body color*/
+
+section {   
+  background:#044949;
+  padding: 30px;
+  }
+
+  /*Footer*/
+
+footer {
+      background:rgb(0, 0, 0);
+  
+  color: white;
+  font-size:22px;
+  color: white;
+  padding-right:30px;
+  padding: 20px;
+  font-family: Arial;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  
+}
+
+/*Footer icons*/
+
+.Footer-icons {
+  display: flex;
+  justify-content:  right;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top:10px;
+}
+
+.Footer-icons img {
+width: 50px;
+height: 50px;
+}
+
+/*Footer text*/
+
+.Footer-text {
+  width: 600px;
+  padding-top: 20px;
+    }
+
+/*Position of the icons*/
+.icon{
+position: relative;
+}
+
+/*Heading one*/
+
+h1{
+  font-size: 76px;
+  color: #00f7ff;
+  text-align: center;
+  font-family: LinkFont;
+  margin-top:10px;
+  
+}
+
+/*Heading 2*/
+
+h2{
+  font-size: 30px;
+  font-family: Header2;
+  color: #b1c1d8;
+  text-align: center;
+}
+
+/*Paragraphs*/
+
+p{
+  font-size: 20px;
+  color: white;
+}
+
+.infobox { 
+background:lightblue;
+padding:5px;
+border: 3px #1e1e1e dotted;
+text-align: center;
+color: black;
+}
+
+img {
+max-width: 100%; 
+}
+
+
+@media only screen and (max-width: 700px) { 
+  
+  footer{
+justify-content: center;
+text-align: center;
+height: auto;
+
+  }
+ .header_gif {
+  width: 50px;
+ }
+ .PSYLogo {
+  width: 70px;
+ }
+  header {
+      text-align: centre;
+      ;}
+
+      .NavItems{
+          font-size:18px;
+          display: block;
+          justify-content: center;
+          flex-direction: row;
+
+      }
+  }
+
+  /*Cards*/
+
+  .flexContainer {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+
+  .flexItem1 {
+      width: 200px;
+      background:#099572;
+      text-align: center;
+      padding: 20px;
+      color: rgb(0, 0, 0);
+      border: #1e1e1e dashed 7px;
+      border-radius: 20px; ;
+      font-size: 20px;
+      padding: 10px;
+  }
+
+  .flexItem1:hover{
+    background: #00ff9d;
+    width:150px;
+    rotate: 10deg;
+    transition: .3s;
+
+  }
+
+  /*Header of the table*/
+
+  .flexItem2 {
+      width: 200px;
+      background:blue;
+      text-align: center;
+      padding: 20px;
+  }
+
+
+
+  .flexItem3 {
+      width: 200px;
+      background:rgb(0, 0, 0);
+      text-align: center;
+      padding: 20px;
+   
+  }
+
+  /*Contact page*/
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 15px;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(107, 176, 255);
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:20px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #01ccff;
+  }
+  .profile-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%; /* Flexible width */
+    max-width: 600px; /* Maximum width */
+    margin: 20px auto; /* Centering horizontally */
+    padding: 10px; /* Padding around the card */
+    display: block; /* Ensures that margin auto is effective */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .info {
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 10px 0; /* Margin on top and bottom for spacing */
+    position: relative;
+  }
+
+  
+  .profile-header {
+    position: absolute;
+    top: -12px; 
+    left: -1px; 
+    background: #fff;
+    padding: 0 10px;
+    font-weight: bold;
+  }
+  .info div {
+    margin-bottom: 10px; 
+    line-height: 1.5; 
+  }
+  .info span {
+    font-weight: bold;
+  }
+
+  /*Compare artists*/
+
+  .compare-button {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .compare-button:hover {
+    background: #444;
+  }
+
+
+.split50 {
+  width:400px;
+}
+
+/*Media images / icons*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .profile-card {
+    padding: 15px; 
+}
+
+.info {
+    padding: 15px; 
+  }
+
+  .profile-header {
+    top: -15px;
+  }
+}
+
+
+/*Gallery images layout*/
+
+.gallery-container {
+
+display: flex;
+justify-content: space-around;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery:hover p{
+  color:black;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery:hover {
+  background: #00ff9d;
+  width:190px;
+  rotate: 10deg;
+  transition: .3s;
+  color: #000;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+ /*Table*/
+
+table {
+	width:100%;
+	background-color: #008cff;
+	border-collapse: collapse;
+}
+
+table th {
+	padding:10px 5px;
+	border: 3px solid #575757;
+	text-align: center;
+	background-color: #0019E3;
+	color: #ffffff;
+}
+
+table tr, table td {
+	text-align: left;
+	border: 3px solid #575757;
+	padding: 10px 15px;
+	vertical-align: top;
+}
+
+/*Contact Page writting*/
+label{
+  color: #0DF2F2;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
